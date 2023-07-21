@@ -3,8 +3,8 @@
   "id": "fuckvoid",
   "version": "${version}",
   "name": "FuckVoid",
-  "description": "",
-  "authors": [],
+  "description": "A simple mod, it could remind you that you're falling into the void. \nIf you had elytra that you might not forget to fly.",
+  "authors": ["Huanlan233"],
   "contact": {
     "repo": "https://github.com/Huanlan233/FuckVoid"
   },
@@ -21,7 +21,7 @@
   },
   "mixins": [],
   "depends": {
-    "fabricloader": ">=${loader_version}",
+    "fabricloader": "${loader_version}",
     "fabric": "*",
     "minecraft": "${minecraft_version}"
   }
