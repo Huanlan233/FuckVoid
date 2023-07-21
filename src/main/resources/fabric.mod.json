@@ -1,0 +1,28 @@
+{
+  "schemaVersion": 1,
+  "id": "fuckvoid",
+  "version": "${version}",
+  "name": "FuckVoid",
+  "description": "",
+  "authors": [],
+  "contact": {
+    "repo": "https://github.com/Huanlan233/FuckVoid"
+  },
+  "license": "MIT",
+  "icon": "assets/fuckvoid/icon.png",
+  "environment": "client",
+  "entrypoints": {
+    "client": [
+      "top.htext.fuckvoid.fuckvoid.client.FuckVoidClient"
+    ],
+    "main": [
+      "top.htext.fuckvoid.fuckvoid.FuckVoid"
+    ]
+  },
+  "mixins": [],
+  "depends": {
+    "fabricloader": ">=${loader_version}",
+    "fabric": "*",
+    "minecraft": "${minecraft_version}"
+  }
+}
